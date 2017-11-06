@@ -1,6 +1,6 @@
 "use strict"
 
-CKEDITOR.plugins.setLang( 'btgrid', 'de', {
+CKEDITOR.plugins.setLang( 'bt4grid', 'de', {
 	selNumCols: 'Anzahl der Spalten',
 	genNrRows: 'Anzahl der zu generierenden Zeilen',
 	infoTab: 'Info',

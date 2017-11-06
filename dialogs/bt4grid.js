@@ -1,5 +1,5 @@
-CKEDITOR.dialog.add( 'btgrid', function( editor ) {
-  var lang = editor.lang.btgrid;
+CKEDITOR.dialog.add( 'bt4grid', function( editor ) {
+  var lang = editor.lang.bt4grid;
   var commonLang = editor.lang.common;
 
   // Whole-positive-integer validator.
@@ -27,7 +27,7 @@ CKEDITOR.dialog.add( 'btgrid', function( editor ) {
 
       var rowsInput = this.getContentElement('info', 'rowCount'),
         colsInput = this.getContentElement('info', 'colCount');
-      if (command == 'btgrid') {
+      if (command == 'bt4grid') {
         var grid = selection.getSelectedElement();
         // Enable or disable row and cols.
         if (grid) {

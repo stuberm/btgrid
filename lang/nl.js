@@ -1,6 +1,6 @@
 "use strict"
 
-CKEDITOR.plugins.setLang( 'btgrid', 'nl', {
+CKEDITOR.plugins.setLang( 'bt4grid', 'nl', {
 	selNumCols: 'Kies het aantal kolommen',
   genNrRows: 'Aantal rijen te genereren',
 	infoTab: 'Info',
